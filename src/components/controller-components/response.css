@@ -1,0 +1,14 @@
+.response-main-container{
+    border: 1px solid black;
+    padding:5px;
+    margin:20px;
+}
+
+.response-container{
+    background-color: black;
+    color: aquamarine;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}

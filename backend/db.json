@@ -1,0 +1,370 @@
+{
+  "instance": [
+    {
+      "namespace": "default",
+      "pods": [
+        {
+          "id": 1,
+          "name": "default-jenkins-0"
+        },
+        {
+          "id": 2,
+          "name": "jungmi2-test-jenkins-0"
+        },
+        {
+          "id": 3,
+          "name": "neverused-test-jenkins-0"
+        },
+        {
+          "id": 4,
+          "name": "praj3-jenkins-0"
+        },
+        {
+          "id": 5,
+          "name": "run-jenkins-0"
+        },
+        {
+          "id": 6,
+          "name": "scf3re-7-jenkins-0"
+        },
+        {
+          "id": 7,
+          "name": "scf3re-8-jenkins-0"
+        },
+        {
+          "id": 8,
+          "name": "symana-jenkins-0"
+        },
+        {
+          "id": 9,
+          "name": "test-bats-jenkins-0"
+        },
+        {
+          "id": 10,
+          "name": "test-dind-jenkins-0"
+        }
+      ]
+    },
+    {
+      "namespace": "default-1",
+      "pods": [
+        {
+          "id": 1,
+          "name": "default-jenkins-1"
+        },
+        {
+          "id": 2,
+          "name": "jungmi2-test-jenkins-1"
+        },
+        {
+          "id": 3,
+          "name": "neverused-test-jenkins-1"
+        },
+        {
+          "id": 4,
+          "name": "praj3-jenkins-1"
+        },
+        {
+          "id": 5,
+          "name": "run-jenkins-1"
+        },
+        {
+          "id": 6,
+          "name": "scf3re-7-jenkins-1"
+        },
+        {
+          "id": 7,
+          "name": "scf3re-8-jenkins-1"
+        },
+        {
+          "id": 8,
+          "name": "symana-jenkins-1"
+        },
+        {
+          "id": 9,
+          "name": "test-bats-jenkins-1"
+        },
+        {
+          "id": 10,
+          "name": "test-dind-jenkins-1"
+        }
+      ]
+    }
+  ],
+  "pods": [
+    {
+      "id": 1,
+      "name": "default-jenkins-0",
+      "detail": {
+        "name": "default-jenkins-0",
+        "status": "Running",
+        "pod_ip": "10.244.0.4",
+        "node_name": "aks-agentpool-40442392-2",
+        "container_names": [
+          "jenkins",
+          "config-reload"
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "name": "jungmi2-test-jenkins-0",
+      "detail": {
+        "name": "jungmi2-test-jenkins-0",
+        "status": "Running",
+        "pod_ip": "10.244.2.4",
+        "node_name": "aks-agentpool-40442392-2",
+        "container_names": [
+          "jenkins",
+          "config-reload"
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "name": "neverused-test-jenkins-0",
+      "detail": {
+        "name": "neverused-test-jenkins-0",
+        "status": "Running",
+        "pod_ip": "10.244.3.4",
+        "node_name": "aks-agentpool-40442392-2",
+        "container_names": [
+          "jenkins",
+          "config-reload"
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "name": "praj3-jenkins-0",
+      "detail": {
+        "name": "praj3-jenkins-0",
+        "status": "Running",
+        "pod_ip": "10.244.4.4",
+        "node_name": "aks-agentpool-40442392-2",
+        "container_names": [
+          "jenkins",
+          "config-reload"
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "name": "run-jenkins-0",
+      "detail": {
+        "name": "run-jenkins-0",
+        "status": "Running",
+        "pod_ip": "10.244.5.4",
+        "node_name": "aks-agentpool-40442392-2",
+        "container_names": [
+          "jenkins",
+          "config-reload"
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "name": "scf3re-7-jenkins-0",
+      "detail": {
+        "name": "scf3re-7-jenkins-0",
+        "status": "Running",
+        "pod_ip": "10.244.6.4",
+        "node_name": "aks-agentpool-40442392-2",
+        "container_names": [
+          "jenkins",
+          "config-reload"
+        ]
+      }
+    },
+    {
+      "id": 7,
+      "name": "scf3re-8-jenkins-0",
+      "detail": {
+        "name": "scf3re-8-jenkins-0",
+        "status": "Running",
+        "pod_ip": "10.244.7.4",
+        "node_name": "aks-agentpool-40442392-2",
+        "container_names": [
+          "jenkins",
+          "config-reload"
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "name": "symana-jenkins-0",
+      "detail": {
+        "name": "symana-jenkins-0",
+        "status": "Running",
+        "pod_ip": "10.244.8.4",
+        "node_name": "aks-agentpool-40442392-2",
+        "container_names": [
+          "jenkins",
+          "config-reload"
+        ]
+      }
+    },
+    {
+      "id": 9,
+      "name": "test-bats-jenkins-0",
+      "detail": {
+        "name": "test-bats-jenkins-0",
+        "status": "Running",
+        "pod_ip": "10.244.9.4",
+        "node_name": "aks-agentpool-40442392-2",
+        "container_names": [
+          "jenkins",
+          "config-reload"
+        ]
+      }
+    },
+    {
+      "id": 10,
+      "name": "test-dind-jenkins-0",
+      "detail": {
+        "name": "test-dind-jenkins-0",
+        "status": "Running",
+        "pod_ip": "10.244.10.4",
+        "node_name": "aks-agentpool-40442392-2",
+        "container_names": [
+          "jenkins",
+          "config-reload"
+        ]
+      }
+    }
+  ],
+  "default": [
+    {
+      "id": 1,
+      "name": "default-jenkins-1"
+    },
+    {
+      "id": 2,
+      "name": "jungmi2-test-jenkins-0"
+    },
+    {
+      "id": 3,
+      "name": "neverused-test-jenkins-0"
+    },
+    {
+      "id": 4,
+      "name": "praj3-jenkins-0"
+    },
+    {
+      "id": 5,
+      "name": "run-jenkins-0"
+    },
+    {
+      "id": 6,
+      "name": "scf3re-7-jenkins-0"
+    },
+    {
+      "id": 7,
+      "name": "scf3re-8-jenkins-0"
+    },
+    {
+      "id": 8,
+      "name": "symana-jenkins-0"
+    },
+    {
+      "id": 9,
+      "name": "test-bats-jenkins-0"
+    },
+    {
+      "id": 10,
+      "name": "test-dind-jenkins-0"
+    },
+    {
+      "name": "jenkins-007",
+      "namespace": "default",
+      "revision": 5,
+      "updated": "Wed Jun 14 2023 11:50:00 GMT+0530 (India Standard Time)",
+      "status": "deployed",
+      "chart": "jenkins-4.1.17",
+      "app_version": "2.346.3",
+      "id": 11
+    }
+  ],
+  "helm": [
+    {
+      "id": 1,
+      "name": "jenkins-test8",
+      "namespace": "default",
+      "revision": "5",
+      "updated": "2022-11-01 08:34:48.044697113 +0100 + 0100",
+      "status": "deployed",
+      "chart": "jenkins-4.1.17",
+      "app_version": "2.346.3"
+    },
+    {
+      "id": 2,
+      "name": "praj3-test8",
+      "namespace": "default",
+      "revision": "2",
+      "updated": "2023-11-01 08:34:48.044697113 +0100 + 0100",
+      "status": "deployed",
+      "chart": "jenkins-4.2.23",
+      "app_version": "2.387.3"
+    },
+    {
+      "id": 3,
+      "name": "run-jenkins",
+      "namespace": "default",
+      "revision": "1",
+      "updated": "2022-11-01 08:34:48.044697113 +0100 + 0100",
+      "status": "deployed",
+      "chart": "jenkins-4.1.17",
+      "app_version": "2.346.3"
+    },
+    {
+      "id": 4,
+      "name": "praj3-test4",
+      "namespace": "default",
+      "revision": "2",
+      "updated": "2023-11-01 08:34:48.044697113 +0100 + 0100",
+      "status": "deployed",
+      "chart": "jenkins-4.2.23",
+      "app_version": "2.387.3"
+    },
+    {
+      "id": 5,
+      "name": "jenkins-test81",
+      "namespace": "default",
+      "revision": "5",
+      "updated": "2022-11-01 08:34:48.044697113 +0100 + 0100",
+      "status": "deployed",
+      "chart": "jenkins-4.1.17",
+      "app_version": "2.346.3"
+    },
+    {
+      "id": 6,
+      "name": "praj3-test81",
+      "namespace": "default",
+      "revision": "2",
+      "updated": "2023-11-01 08:34:48.044697113 +0100 + 0100",
+      "status": "deployed",
+      "chart": "jenkins-4.2.23",
+      "app_version": "2.387.3"
+    },
+    {
+      "id": 7,
+      "name": "run-jenkins1",
+      "namespace": "default",
+      "revision": "1",
+      "updated": "2022-11-01 08:34:48.044697113 +0100 + 0100",
+      "status": "deployed",
+      "chart": "jenkins-4.1.17",
+      "app_version": "2.346.3"
+    },
+    {
+      "id": 8,
+      "name": "praj3-test41",
+      "namespace": "default",
+      "revision": "2",
+      "updated": "2023-11-01 08:34:48.044697113 +0100 + 0100",
+      "status": "deployed",
+      "chart": "jenkins-4.2.23",
+      "app_version": "2.387.3"
+    }
+  ]
+}

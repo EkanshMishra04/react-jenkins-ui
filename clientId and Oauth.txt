@@ -1,0 +1,6 @@
+client id 608015591512-9iedd3ij47dhe8a953ua2aq4qte18rng.apps.googleusercontent.com
+
+client secret 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
+
+
+API KEY AIzaSyDV4Id_5r9MLl7MLz5O6GWGxhGXyhuSKGk
